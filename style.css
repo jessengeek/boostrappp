@@ -1,0 +1,61 @@
+
+h1,
+h3 {
+    color: brown;
+}
+#login{
+    color : white; 
+     background-color: blue;  
+}
+#signup{
+    color: aqua;
+    background-color: white;
+ } 
+.a{
+    background-color: green;
+}
+p a{
+    color: purple;
+}
+p + h3{
+    text-decoration:  blue underline;
+}
+.a + button{
+    background-color: darkcyan;
+    color: darkmagenta;
+}
+[type]{
+    color: crimson;
+}
+#myid p{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: pink;
+}
+input[type="radio"]:checked + label{
+    color: red ;
+    font-weight: bold;
+    font-size: 30px;
+}
+div li:not(:hover){
+    background-color: grey;
+}
+div li:nth-of-type(3n+1){
+    color: cadetblue;
+}
+#greeting p{
+    background-color: aqua;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+div li::selection{
+    color: pink;
+}
